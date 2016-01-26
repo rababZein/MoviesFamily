@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MoviesFamily</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="pref_units_label">SortBy</string>
+    <string name="pref_units_key">SortBy</string>
+    <string name="pref_units_popularity">popularity.desc</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="action_share">Share</string>
+</resources>

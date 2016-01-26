@@ -1,0 +1,107 @@
+<LinearLayout
+    android:id="@+id/movie_detail_container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#04B4AE"
+        >
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="5dp"
+        >
+
+        <ImageView
+            android:id="@+id/grid_item_image"
+            android:layout_width="116dp"
+            android:layout_height="199dp"
+            android:layout_marginLeft="20dp"
+            android:scaleType="fitCenter"  />
+        <LinearLayout
+
+            android:layout_height="202dp"
+            android:layout_width="172dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/release_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/vote_average"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:id="@+id/overview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADD"
+                android:id="@+id/addfavorite" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent" >
+    <TableRow>
+    <ListView
+        android:id="@+id/videoMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:background="@color/white"
+
+        />
+    </TableRow>
+<TableRow>
+    <ListView
+        android:id="@+id/reviewMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:background="@color/white"
+        >
+
+    </ListView>
+
+</TableRow>
+    </TableLayout>
+</LinearLayout>
+
+
+
+
